@@ -1,0 +1,12 @@
+namespace Application.DTO.Technology
+{
+    public record AddTechnologyDTO
+    {
+        public Guid Id { get; }
+        public AddTechnologyDTO(Guid id)
+        {
+            Id = id;
+        }
+        public AddTechnologyDTO() { }
+    }
+}

@@ -9,3 +9,8 @@ c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Applicat
 c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Application\obj\Debug\net9.0\refint\Application.dll
 c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Application\obj\Debug\net9.0\Application.pdb
 c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Application\obj\Debug\net9.0\ref\Application.dll
+c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Application\obj\Debug\net9.0\Application.sourcelink.json
+c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Application\bin\Debug\net9.0\Domain.dll
+c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Application\bin\Debug\net9.0\Domain.pdb
+c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date

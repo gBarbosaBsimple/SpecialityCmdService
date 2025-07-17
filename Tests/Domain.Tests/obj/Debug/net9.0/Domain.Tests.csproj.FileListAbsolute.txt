@@ -100,3 +100,4 @@ c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Tests\Do
 c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Tests\Domain.Tests\obj\Debug\net9.0\Domain.Tests.pdb
 c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Tests\Domain.Tests\obj\Debug\net9.0\Domain.Tests.genruntimeconfig.cache
 c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Tests\Domain.Tests\obj\Debug\net9.0\ref\Domain.Tests.dll
+c:\Users\goncalobarbosa\Documents\ProjetosAcademia\SpecialityCmdService\Tests\Domain.Tests\obj\Debug\net9.0\Domain.Tests.sourcelink.json
