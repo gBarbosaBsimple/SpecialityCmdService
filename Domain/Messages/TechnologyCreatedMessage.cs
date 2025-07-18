@@ -1,3 +1,6 @@
-namespace Contracts.Messages;
+using Domain.Models;
 
-public record TechnologyCreatedMessage(Guid Id, string Description);
+namespace Domain.Messages
+{
+    public record TechnologyCreatedMessage(Guid Id, string Description);
+}

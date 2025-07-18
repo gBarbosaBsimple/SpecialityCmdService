@@ -1,4 +1,3 @@
-using Contracts.Messages;
 using MassTransit;
 using Application.Interfaces;
 using Domain.Models;

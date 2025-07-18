@@ -1,5 +1,4 @@
 using Application.IPublishers;
-using Contracts.Messages;
 using Domain.Messages;
 using Domain.Models;
 using MassTransit;
@@ -19,15 +18,15 @@ namespace InterfaceAdapters.Publisher
             _sendEndpointProvider = sendEndpointProvider;
         }
 
-        public Task PublishSpecialityCreatedAsync(Guid id, string description, Guid technologyId, Guid collaboratorId, PeriodDate periodDate)
+        public Task PublishSpecialityCreatedAsync(Guid SpecialityId, string Description, Guid TechnologyId, Guid CollaboratorId, PeriodDate PeriodDate)
         {
-            var eventMessage = new SpecialityCreatedMessage(id, description, technologyId, collaboratorId, periodDate);
+            var eventMessage = new SpecialityCreatedMessage(SpecialityId, Description, TechnologyId, CollaboratorId, PeriodDate);
             return _publishEndpoint.Publish(eventMessage);
         }
 
-        public Task PublishSpecialityUpdatedAsync(Guid id, string description, Guid technologyId, Guid collaboratorId, PeriodDate periodDate)
+        public Task PublishSpecialityUpdatedAsync(Guid SpecialityId, string Description, Guid TechnologyId, Guid CollaboratorId, PeriodDate PeriodDate)
         {
-            var eventMessage = new SpecialityUpdatedMessage(id, description, technologyId, collaboratorId, periodDate);
+            var eventMessage = new SpecialityUpdatedMessage(SpecialityId, Description, TechnologyId, CollaboratorId, PeriodDate);
             return _publishEndpoint.Publish(eventMessage);
         }
 
